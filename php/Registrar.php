@@ -120,7 +120,7 @@
 
 	                    mysqli_close($link);
 						
-	                    header('location:Login.php');
+	                    echo "<a style='text-decoration: underline; padding: 3px 30px 3px 30px; font-weight: 800;font-size: 20px;color: white ;background-color: #3393FF;border-radius: 20px;border: 3px solid #0016a6' href='Login.php'>Ir a Login</a>";
 	                }
 				}
 ?>
